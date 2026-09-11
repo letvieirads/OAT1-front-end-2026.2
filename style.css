@@ -1,0 +1,59 @@
+body{
+    margin-left: 300px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 250px;
+    height: 100vh;
+
+    background-color: #d66ca9;
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: "Dancing Script", cursive;
+    font-size: 480%;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.info img {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
